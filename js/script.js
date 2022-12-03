@@ -21,6 +21,7 @@ function updateTime(){
     const noDay = Math.floor(diff/1000/60/60/24);
     
     const noHours = Math.floor((diff/1000/60/60)%24);
+    hours.innerHTML = noHours;
     
     const noMin = Math.floor((diff/1000/60)%60);
 
